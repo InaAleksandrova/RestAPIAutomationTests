@@ -1,4 +1,4 @@
-# Fakerestapi_tests
+# Rest API automation tests
 
 ## Overview
 This project is designed for automating API tests for an online bookstore using the FakeRestAPI. The project uses TestNG for structuring the test cases, RestAssured for making HTTP calls to the API, and Allure for generating comprehensive reports. Additionally, the project is configured with GitHub Actions for continuous integration and deployment (CI/CD).
@@ -80,8 +80,8 @@ Here is a brief overview of the folder structure in the project:
 **Setup**
 * Step 1: Clone the repository
 ```
-git clone https://github.com/InaAleksandrova/Fakerestapi_tests.git
-cd Fakerestapi_tests
+git clone https://github.com/InaAleksandrova/RestAPIAutomationTests.git
+cd RestAPIAutomationTests
 ```
 * Step 2: Install Dependencies
     * Run the following Maven command to install all dependencies:
