@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="API Automation Test Suite" verbose="1" parallel="none">
+
+    <!-- Define a test block for Books API tests -->
+    <test name="Books API Tests">
+        <classes>
+            <!-- This will run the tests in the BooksTest class -->
+            <class name="com.fakerestapi.test.BooksTests"/>
+        </classes>
+    </test>
+
+    <!-- Define a test block for Authors API tests -->
+    <test name="Authors API Tests">
+        <classes>
+            <!-- This will run the tests in the AuthorsTest class -->
+            <class name="com.fakerestapi.test.AuthorsTests"/>
+        </classes>
+    </test>
+
+</suite>
